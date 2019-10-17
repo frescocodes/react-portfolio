@@ -1,0 +1,8 @@
+{
+    "version": 1,
+    "name": "portfolio",
+    "builds": [{ "src": "portfolio/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "portfolio/$1" }
+    ]
+}
