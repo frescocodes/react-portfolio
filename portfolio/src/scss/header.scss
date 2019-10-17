@@ -1,0 +1,17 @@
+header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav {
+        a {
+            color: #000;
+            font-family: $font-main;
+            margin-left: 3rem;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

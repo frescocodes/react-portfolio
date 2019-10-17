@@ -1,0 +1,9 @@
+.section-home {
+    margin-top: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    .home {
+        font-family: $font-main;
+        font-size: 2em;
+    }
+}

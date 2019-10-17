@@ -1,0 +1,30 @@
+@import 'reset';
+@import 'variables';
+@import 'mixins';
+@import 'home';
+@import 'header';
+@import 'about';
+@import 'contact';
+@import 'footer';
+
+.App {
+    padding: 0 20%;
+}
+
+h1 { 
+    font-family: $font-secondary;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+h3 {
+    font-family: $font-secondary;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h6 {
+    font-family: $font-main;
+    font-size: 4rem;
+    font-weight: 700;
+}
